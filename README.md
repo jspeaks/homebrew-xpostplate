@@ -3,8 +3,13 @@
 Homebrew tap for [xpostplate](https://github.com/jspeaks/xpostplate).
 
 ```bash
-brew tap jspeaks/xpostplate
-brew install xpostplate
+brew install jspeaks/xpostplate/xpostplate
 ```
 
-Head-only until the first GitHub release ships a stable archive URL.
+That installs the latest tagged release. For bleeding edge from `main`, add `--HEAD`:
+
+```bash
+brew install --HEAD jspeaks/xpostplate/xpostplate
+```
+
+The agent skill ships at `$(brew --prefix)/opt/xpostplate/share/xpostplate/skills/xpostplate/SKILL.md`.
